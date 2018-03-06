@@ -1,0 +1,61 @@
+/* header */
+
+/* portfolio background */
+
+
+
+/* form */
+@media screen and (max-width: 480px) {
+    form{
+    margin-top: 60%;
+}
+}
+
+/* logo */
+@media screen and (max-width: 480px) {
+   #logo {
+       font-size: 12px;
+     
+       padding-left: 10%;
+       padding-right: 10%;
+       
+    }
+}
+@media screen and (max-width: 480px) {
+    .center{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .center-center{
+        font-size: 14px;
+    }
+}
+
+/* footer social icons float left*/
+@media screen and (max-width: 680px) {
+    .footer-social-icons{
+    float: left;
+    
+}
+
+}
+
+
+/* picture of the girl */
+@media screen and (max-width: 480px) {
+     #girl, #myCarousel{
+        width: 100% !important;
+    }
+}
+/* slider in the girl's picture */
+@media screen and (max-width: 480px) {
+    #box{
+        width: 92% !important;
+    }
+}
+@media screen and (min-width: 480px) {
+    #box{
+        width: 94% !important;
+    }
+}

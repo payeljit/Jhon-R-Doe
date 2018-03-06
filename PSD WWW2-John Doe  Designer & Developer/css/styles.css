@@ -1,0 +1,204 @@
+body{
+    color: #444343;
+    
+    font-family:Georgia !important;
+}
+#left-images ul li{
+    float: right;
+    display: block;
+    padding-left: 10px;
+    
+}
+
+/*logo*/
+#logo{
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 20.16666666666667%;
+    padding-right: 15px;
+    float: left;
+}
+
+/* ============social icons in  header================ */
+
+.header-social-icons{
+    float: right;
+    padding-top: 5.10% ;
+    padding-right: 21.25%;
+    
+
+}
+.header-social-icons ul li{
+    display: inline;
+}
+/* ============social icons in  header end ================ */
+
+
+/* header */
+header{
+    z-index:0;/* to put the header-bg image behind*/
+  
+}
+/* header background image */
+#header-bg{
+    border-bottom: 4px solid white;
+    -moz-box-shadow: 0 2px 5px gray;
+    -webkit-box-shadow: 10px 32px 35px gray;
+    box-shadow: 0 2px 5px gray;
+    background:url(../img/images/background.png) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    height: 31.145833333333334%;
+    position:absolute;
+    z-index:-1;
+  
+}
+/*#portfolio-bg{
+    border-bottom: 4px solid white;
+    box-shadow: 0 2px 5px gray;
+    background:url(../img/images/background.png) no-repeat;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    width: 100%;
+    
+    height: 92.5%;
+    position:absolute;
+    z-index:-1;
+    top:105.90416666666667%;
+    left: -1px;
+    
+    
+   
+}*/
+#portfolio{
+    margin-top: 14.5%;
+    
+}
+
+
+/* container */
+#container{
+    padding-top: 136px;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+/* to style  the heading of the container */
+.center{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Georgia;
+}
+.center-center{
+
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 0;    
+}
+
+
+
+/* portfolio-slider height (small)*/
+.size{
+    height: 118px !important;
+}
+
+/* service or article secton*/
+#article{
+   
+    
+}
+#left-images img{
+    padding-bottom: 20px;
+    width: 180px;
+    
+}
+/* inside girl image*/
+#right-image img{
+    height: 490px;
+}
+#box {
+   width:97%;
+   height: 120px;
+   display: block;
+   background:rgba(0,0,0,.5);
+   position: absolute;
+   top:370px;
+   /*overflow: hidden;*/
+    
+}
+#box p{
+    padding: 30px 50px;
+    color: #fff;
+}
+/* contact */
+form{
+    margin-top: 35%;
+}
+#about{
+margin-top: 15%;    
+}
+#about img{
+ float: left;
+ width: 150px;
+ height: 200px;
+ padding-right: 15px;
+}
+#follow-me a{
+padding: 20px;    
+}
+/* hr style*/
+.style1{
+    border-top: 1px solid #c7c7c7;
+}
+/* footer */
+footer p{
+    float: left;
+    padding: 20px 0;
+}
+.footer-social-icons{
+    float: right;
+    padding: 20px 0;
+
+}
+.footer-social-icons ul li{
+    display: inline;
+}
+
+/* contact form */
+form input, textarea{
+    width: 90.604166666666666%;
+    height: 61px;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+    border: 2px solid white;
+    -webkit-box-shadow:0 0 12px #dedede;
+    box-shadow: 0 0 12px #dedede;
+    padding: 12px 20px;
+    font-style: italic;
+    color: #878787;
+}
+form #submit{
+width: 150px;
+height: 50px;
+margin-top: 10px;
+}
+form  textarea{
+height: 161px !important;    
+}
+
+textarea:focus, input:focus {
+  border: 1px solid gray;
+}
+
+
+
